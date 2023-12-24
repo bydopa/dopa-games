@@ -1,0 +1,75 @@
+/*Reset*/
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.banner-header {
+    background-image: url('../assets/portada-index.jpeg');
+}
+
+.envio-header {
+    background-color: #b95829;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo-header {
+    width: 150px;
+}
+
+.logo-header img {
+    width: 150%;
+}
+
+.nav-header {
+    color: #6e3700;
+}
+
+.nav-header a {
+    color: #e67607;
+}
+
+.novedades img {
+    width: 400px;
+    height: 200px;
+}
+
+.novedades-item {
+    text-align: justify;
+    width: 400px;
+}
+
+.title {
+    font-weight: 400;
+    color: #38c4b2;
+    text-align: center;
+
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title-galeria {
+    letter-spacing: 7px;
+}
+
+.card {
+    background-image: url('../assets/helado-dos.jpeg');
+    width: 332px;
+    height: 500px;
+    background-size: contain;
+}
+
+.card p {
+    line-height: 36px;
+}
+
+footer {
+    background-color: #fbefe5;
+}
+
+footer img {
+    width: 100px;
+}
