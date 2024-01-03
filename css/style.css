@@ -18,6 +18,12 @@
 
 .logo-header img {
     width: 150%;
+
+}
+
+.logo-wishlist img {
+    width: 30px;
+   
 }
 
 .nav-header {
@@ -72,6 +78,9 @@ footer {
 }
 
 footer img {
-    width: 100px;
+    width: 50px;
 }
 
+.logo-footer {
+    width: 100px;
+}
