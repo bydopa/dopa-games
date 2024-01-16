@@ -2,14 +2,13 @@
     font-family: 'Londrina Solid', sans-serif;
 }
 
-.banner-header {
-    background-image: url('../assets/portada-index.jpeg');
-}
-
 .envio-header {
     background-color: #b95829;
     color: #ffffff;
-    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo-header {
@@ -32,6 +31,10 @@
 
 .nav-header a {
     color: #e67607;
+}
+
+.nav-item {
+    font-size: 20px;
 }
 
 .titulo {
@@ -83,4 +86,14 @@ footer img {
 
 .logo-footer {
     width: 100px;
+}
+
+.carousel-item {
+    data-bs-interval: "100"
+}
+
+.banner img {
+    display: flex;
+    width: 100%;
+    height: 400px;
 }
