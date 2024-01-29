@@ -59,6 +59,7 @@
 .novedades img {
     width: 400px;
     height: 200px;
+    display: flex;
 }
 
 .novedades-item {
@@ -111,6 +112,7 @@ footer img {
 .card-items {
     justify-content: space-around;
     display: flex;
+    width: 100%;
 }
 
 .separadores {
