@@ -1,10 +1,14 @@
+/* Reset */
 * {
     font-family: 'Londrina Solid', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
+/* Header */
 .envio-header {
     background-color: #b95829;
-    color: #ffffff;
+    color: #fbefe5;
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,40 +16,35 @@
 }
 
 .logo-header {
-    width: 200px;
+    max-width: 150px;
 }
 
 .logo-header img {
     width: 100%;
-
-}
-
-.logo-wishlist img {
-    width: 30px;
-   
-}
-
-.nav-header {
-    color: #6e3700;
-}
-
-.nav-header a {
-    color: #e67607;
 }
 
 .nav-item {
     font-size: 20px;
 }
 
+/* Main */
+.carousel-item {
+    data-bs-interval: "100"
+}
+
+.banner img {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
 .titulo {
     font-weight: 400;
     color: #38c4b2;
     text-align: center;
-    font-family: 'Londrina Solid';
 }
 
 .sub-titulo {
-    font-family: 'Londrina Solid';
     font-weight: 800;
     font-size: 20px;
     letter-spacing: 10px;
@@ -53,7 +52,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
-
+    color: #e67607;
 }
 
 .novedades img {
@@ -63,11 +62,24 @@
 }
 
 .novedades-item {
-    text-align: center;
+    justify-content: center;
     width: 550px;
     color: #000000;
     font-family: 'Londrina Solid';
 
+}
+
+.card-items {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+
+.card-item {
+    justify-content: center;
+    display: flex;
+    width: 100%;
 }
 
 .ver-tienda {
@@ -75,18 +87,13 @@
     justify-content: center;
 }
 
-.sub-titulo {
-    color: #e67607;
+/* Aside */
+.separadores {
+    display: flex;
+    justify-content: center;
 }
 
-.title-galeria {
-    letter-spacing: 7px;
-}
-
-.fundas p {
-    line-height: 36px;
-}
-
+/* Footer */
 footer {
     background-color: #fbefe5;
 }
@@ -99,28 +106,7 @@ footer img {
     width: 100px;
 }
 
-.carousel-item {
-    data-bs-interval: "100"
-}
-
-.banner img {
-    display: flex;
-    width: 100%;
-    height: 400px;
-}
-
-.card-items {
-    justify-content: space-around;
-    display: flex;
-    width: 100%;
-}
-
-.separadores {
-    display: flex;
-    justify-content: center;
-}
-
-/* Mobile */
+/* Media Queries */
 @media only screen and (max-width: 500px) {
     .logo-header {
         width: 120px;
