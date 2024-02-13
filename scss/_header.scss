@@ -1,0 +1,47 @@
+@import "colors";
+
+/* Header */
+.logo-header {
+    max-width: 150px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.envio-header {
+    background-color: $brown;
+    color: #fbefe5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header - Nav Bar */
+
+.nav-item {
+    font-size: 20px;
+}
+
+.nav-link {
+    color: $esmerald-green;
+}
+
+.form-label {
+    color: $esmerald-green;
+}
+
+.mb-3 {
+    color: $esmerald-green;
+}
+
+.form-control:focus {
+    border-color: $esmerald-green;
+    box-shadow: $green-shadow;
+}
+
+.form-select:focus {
+    border-color: $esmerald-green;
+    box-shadow: $green-shadow;
+}

@@ -1,0 +1,59 @@
+@import "colors";
+
+/* Main */
+.banner img {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.titulo {
+    font-weight: 400;
+    color: $esmerald-green;
+    text-align: center;
+}
+
+.sub-titulo {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 10px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    color: $brown;
+}
+
+.novedades img {
+    width: 400px;
+    height: 200px;
+    display: flex;
+}
+
+.novedades-item {
+    text-align: center;
+    width: 550px;
+    color: $esmerald-green;
+}
+
+.card-items {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+
+.card-item {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.card-text {
+    color: $esmerald-green;
+}
+
+.ver-tienda {
+    display: flex;
+    justify-content: center;
+}

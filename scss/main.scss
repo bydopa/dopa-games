@@ -1,3 +1,6 @@
-body {
-    color: red;
-}
+@import "reset";
+@import "header";
+@import "mains";
+@import "aside";
+@import "footer";
+@import "media";
