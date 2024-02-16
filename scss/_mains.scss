@@ -1,5 +1,10 @@
 @import "colors";
 
+.center-flex {
+    justify-content: center;
+    display: flex;
+}
+
 /* Main */
 .banner img {
     display: flex;
@@ -14,20 +19,19 @@
 }
 
 .sub-titulo {
+    @extend .center-flex;
     font-weight: 800;
     font-size: 20px;
     letter-spacing: 10px;
-    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    display: flex;
     color: $brown;
 }
 
-.novedades img {
-    width: 400px;
-    height: 200px;
-    display: flex;
+.novedades-img:hover {
+    animation-name: card-desvanecer;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
 }
 
 .novedades-item {
@@ -36,17 +40,18 @@
     color: $esmerald-green;
 }
 
-.card-items {
-    justify-content: center;
-    display: flex;
+.card {
+    @extend .center-flex;
     width: 100%;
+}
+
+.card-items {
+    @extend .card;
 }
 
 
 .card-item {
-    justify-content: center;
-    display: flex;
-    width: 100%;
+    @extend .card;
 }
 
 .card-text {
@@ -54,6 +59,25 @@
 }
 
 .ver-tienda {
-    display: flex;
-    justify-content: center;
+    @extend .center-flex;
+}
+
+@keyframes card-desvanecer {
+
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.50;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+    
 }
